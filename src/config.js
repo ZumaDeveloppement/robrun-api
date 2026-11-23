@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/config.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const fs = require('node:fs');
 const path = require('node:path');
 

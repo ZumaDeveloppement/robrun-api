@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Read-only community API for ROB RUN (Steam): live players, history, patch notes, reviews, price and optional Discord stats.",
   "license": "MIT",
+  "author": { "name": "Zuma.Eu", "url": "https://discord.gg/rejoins" },
   "repository": { "type": "git", "url": "git+https://github.com/ZumaDeveloppement/robrun-api.git" },
   "bugs": { "url": "https://github.com/ZumaDeveloppement/robrun-api/issues" },
   "homepage": "https://github.com/ZumaDeveloppement/robrun-api#readme",

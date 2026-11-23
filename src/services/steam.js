@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/services/steam.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const config = require('../config');
 const { memo } = require('../lib/cache');
 const { getJson } = require('../lib/http');

@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · scripts/smoke.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');

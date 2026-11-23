@@ -1,3 +1,7 @@
+# robrun-api · .github/dependabot.yml
+# Copyright (c) 2026 Zuma.Eu · MIT License
+# Discord: https://discord.gg/rejoins
+
 version: 2
 updates:
   - package-ecosystem: github-actions

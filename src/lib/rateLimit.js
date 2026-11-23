@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/lib/rateLimit.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const buckets = new Map();
 
 function createRateLimiter({ windowMs, max }) {

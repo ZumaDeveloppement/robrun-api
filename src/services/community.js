@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/services/community.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const storage = require('./storage');
 const { badRequest } = require('../lib/errors');
 

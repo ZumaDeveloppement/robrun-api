@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/lib/http.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const { upstream } = require('./errors');
 
 async function getJson(url, timeoutMs, { allow = [] } = {}) {

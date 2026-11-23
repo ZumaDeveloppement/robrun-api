@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/services/markdown.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 function toMarkdown(input) {
   let s = String(input).replace(/\r\n?/g, '\n');
   s = s.replace(/\[img\][\s\S]*?\[\/img\]/gi, '').replace(/\{STEAM_CLAN_IMAGE\}\S*/g, '');

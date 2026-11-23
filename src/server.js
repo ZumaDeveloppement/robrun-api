@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/server.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const http = require('node:http');
 const config = require('./config');
 const routes = require('./routes');

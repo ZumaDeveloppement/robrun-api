@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/routes/index.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const crypto = require('node:crypto');
 const config = require('../config');
 const steam = require('../services/steam');

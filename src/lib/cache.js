@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/lib/cache.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const STALE_MAX_MS = 60 * 60_000;
 const store = new Map();
 const inflight = new Map();

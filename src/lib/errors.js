@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/lib/errors.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 class ApiError extends Error {
   constructor(status, code, message) {
     super(message);

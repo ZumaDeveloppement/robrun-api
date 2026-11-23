@@ -1,5 +1,10 @@
 # ROB RUN Community API
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-8a4fff.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%E2%89%A5%2020-8a4fff.svg)](package.json)
+[![Dependencies](https://img.shields.io/badge/dependencies-0-8a4fff.svg)](package.json)
+[![Discord](https://img.shields.io/badge/Discord-join-8a4fff.svg?logo=discord&logoColor=white)](https://discord.gg/rejoins)
+
 [Français](README.fr.md)
 
 A small, **read-only HTTP API for [ROB RUN](https://store.steampowered.com/app/4262460)** (Steam): live player count with
@@ -28,6 +33,16 @@ npm run smoke            # real run against Steam (needs Internet)
 ```
 
 You host your own copy: this repository is the code, not a hosted service.
+
+## Documentation
+
+Full documentation is in [`docs/`](docs/README.md):
+[Getting started](docs/getting-started.md) ·
+[API reference](docs/api-reference.md) ·
+[Configuration](docs/configuration.md) ·
+[Deployment](docs/deployment.md) ·
+[Discord integration](docs/discord-integration.md) ·
+[Architecture](docs/architecture.md)
 
 ## Routes
 
@@ -126,6 +141,10 @@ The `/v1/community` and `/v1/leaderboard` routes are filled by a Discord bot tha
 
 `leaderboard` is optional (10 rows max per list). Only publish display names if your members agree.
 
+## Author
+
+Made by **Zuma.Eu**. Questions, ideas, or want to use it in your community? Join the Discord: https://discord.gg/rejoins
+
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © 2026 Zuma.Eu. Keep the copyright notice and the author's signature in the source files when you reuse the code.

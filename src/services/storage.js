@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/services/storage.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const fs = require('node:fs');
 const path = require('node:path');
 const config = require('../config');

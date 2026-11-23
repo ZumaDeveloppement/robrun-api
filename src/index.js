@@ -1,3 +1,9 @@
+/*!
+ * robrun-api · src/index.js
+ * Copyright (c) 2026 Zuma.Eu · MIT License
+ * Discord: https://discord.gg/rejoins
+ */
+
 const config = require('./config');
 const history = require('./services/history');
 const { createServer } = require('./server');
