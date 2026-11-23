@@ -1,5 +1,6 @@
 # ROB RUN Community API
 
+[![CI](https://github.com/ZumaDeveloppement/robrun-api/actions/workflows/ci.yml/badge.svg)](https://github.com/ZumaDeveloppement/robrun-api/actions/workflows/ci.yml)
 [![Licence : MIT](https://img.shields.io/badge/licence-MIT-8a4fff.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%E2%89%A5%2020-8a4fff.svg)](package.json)
 [![Dépendances](https://img.shields.io/badge/d%C3%A9pendances-0-8a4fff.svg)](package.json)
