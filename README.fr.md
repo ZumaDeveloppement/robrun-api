@@ -28,7 +28,7 @@ npm start                # http://localhost:3000/v1
 ```
 
 ```bash
-npm test                 # 19 tests hors ligne (Steam simulé)
+npm test                 # suite de tests hors ligne (Steam simulé)
 npm run smoke            # test réel contre Steam (Internet requis)
 ```
 

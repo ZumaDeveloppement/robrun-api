@@ -44,7 +44,7 @@ console.log(`${players} players online, 24 h peak: ${last24h?.peak ?? 'not avail
 ## Check that it works
 
 ```bash
-npm test        # 19 offline tests (Steam is simulated)
+npm test        # offline test suite (Steam is simulated)
 npm run smoke   # real calls to Steam (needs Internet)
 ```
 

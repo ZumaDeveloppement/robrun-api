@@ -44,7 +44,7 @@ console.log(`${players} joueurs en ligne, pic des 24 h : ${last24h?.peak ?? 'pas
 ## Vérifier que ça marche
 
 ```bash
-npm test        # 19 tests hors ligne (Steam simulé)
+npm test        # suite de tests hors ligne (Steam simulé)
 npm run smoke   # vrais appels à Steam (Internet requis)
 ```
 
