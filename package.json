@@ -1,0 +1,21 @@
+{
+  "name": "robrun-api",
+  "version": "1.0.0",
+  "description": "Read-only community API for ROB RUN (Steam): live players, history, patch notes, reviews, price and optional Discord stats.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/ZumaDeveloppement/robrun-api.git" },
+  "bugs": { "url": "https://github.com/ZumaDeveloppement/robrun-api/issues" },
+  "homepage": "https://github.com/ZumaDeveloppement/robrun-api#readme",
+  "keywords": ["rob-run", "robrun", "steam", "steam-api", "player-count", "patch-notes", "api", "discord", "nodejs"],
+  "main": "src/index.js",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test \"test/*.test.js\"",
+    "smoke": "node scripts/smoke.js"
+  }
+}

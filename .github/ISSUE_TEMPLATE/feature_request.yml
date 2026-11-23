@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest a new route or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Which data, and who would use it. Only data that Steam or the community already exposes publicly can be served.
+    validations:
+      required: true
